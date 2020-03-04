@@ -19,5 +19,6 @@ export enum Restaurant
 {
     Boondael, 
     Louise,
+    Uccle,
     Undefined
 }
