@@ -1,11 +1,14 @@
+import { Restaurant } from "./Disponibility";
+
 export interface Hour
 {
     id: number,
     email: string,
-    restaurant: string
+    restaurant: Restaurant,
     nbHours: number,
     date: string,
     from: string,
     to: string,
-    accepted: boolean
+    accepted: boolean,
+    weekFrom: Date
 }
