@@ -6,7 +6,8 @@ export interface Disponibility
     firstName: string, 
     lastName: string,
     weekFrom: Date,
-    restaurant: Restaurant
+    restaurant: Restaurant,
+    removeBeforeAdd: boolean
 }
 
 export interface Names
