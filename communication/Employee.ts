@@ -6,5 +6,9 @@ export interface Employee
     accountNumber: string,
     email: string,
     nbHours: number,
-    nbHoursNonAccepted: number
+    nbHoursNonAccepted: number,
+    nationalIdNumber: string,
+    address: string,
+    idRectoFileName: string, 
+    idVersoFileName: string
 }
